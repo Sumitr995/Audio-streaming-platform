@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --theme: #121212;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-10{
+  gap: 10px;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.bg-B-w {
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+
+.color-w {
+  color: white;
+}
+
+.left-m-1 {
+  margin-left: 10px;
+}
+
+.m-left-all {
+  margin: 10px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.cur-p {
+  cursor: pointer;
+}
+
+.font-popin {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-robo{
+  font-family: "Roboto", sans-serif;
+}
+
+.font-500 {
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.f-bold{
+  font-weight: bold;
+}
+

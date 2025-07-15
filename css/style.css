@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  gap: 5px;
+}
+
+.left {
+  width: 25vw;
+  height: 95vh;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.left-top {
+  height: 20vh;
+  background-color: var(--theme);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.left-bottom {
+  background-color: var(--theme);
+  margin-top: 15px;
+  height: 50vh;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.library {
+  margin-left: 10px;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+.lib-img {
+  gap: 10px;
+}
+
+.left-footer{
+    width: 100%;
+    
+}
+
+.footer {
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #b3b3b3;
+  background: transparent;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.lang-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+
+
+.right {
+  width: 75vw;
+  height: 95vh;
+  background-color: var(--theme);
+}
