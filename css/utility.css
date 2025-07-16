@@ -39,12 +39,20 @@
   color: white;
 }
 
+.color-g{
+  color: gray;
+}
+
 .left-m-1 {
   margin-left: 10px;
 }
 
 .m-left-all {
   margin: 10px;
+}
+
+.p-10{
+  padding: 10px;
 }
 
 .w-100 {
