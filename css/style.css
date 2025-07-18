@@ -142,10 +142,14 @@ header{
   justify-content: space-between;
 }
 
-.spotifyaCards{
-  height: 50px;
-  width: 30px;
+.spotifyCards{
+  height: 35vh;
+  width: 30vh;
+  background-color: antiquewhite;
+  padding: 2px;
 }
+
+
 
 
 
