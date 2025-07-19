@@ -97,6 +97,7 @@
   height: 95vh;
   background-color: var(--theme);
   border-radius: 7px;
+  position: relative;
 }
 
 nav {
@@ -132,26 +133,74 @@ nav {
   border-radius: 18px;
 }
 
-main{
-    height: 85vh;
+main {
+  height: 85vh;
   background: linear-gradient(to bottom, rgb(43, 43, 43), black);
 }
 
-header{
+header {
   height: 5vh;
   justify-content: space-between;
 }
 
-.spotifyCards{
-  height: 35vh;
-  width: 30vh;
-  background-color: antiquewhite;
+.spotifyCards {
+  height: 32vh;
+  width: 24vh;
+  background-color: #141414;
   padding: 2px;
+  border-radius: 7px;
 }
 
+.playlistBox {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 70vh;
+  width: 65vw;
+}
 
+.card {
+  height: 31vh;
+  width: 21vh;
+  background-color: #141414;
+  padding: 2px;
+  border-radius: 7px;
+  flex-direction: column;
+  position: relative;
+}
 
+.card img {
+  width: 155px;
+  object-fit: contain;
+}
 
+.card p {
+  font-weight: 200;
+  font-size: 11px;
+  text-align: center;
+}
+
+.play {
+  width: 36px;
+  height: 35px;
+  background-color: #00ff00;
+  color: black;
+  border-radius: 30px;
+  position: absolute;
+  top: 119px;
+  right: 9px;
+  border: 1px solid black;
+}
+
+.playbar{
+  position: absolute;
+  bottom: 20px;
+  background-color: #26be26;
+  width: 68vw;
+  padding: 12px;
+  border-radius: 7px;
+}
 
 
 
